@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
@@ -14,13 +15,16 @@ const Navbar = () => {
         shadow-[0_8px_32px_rgba(255,255,255,0.15)]"
       >
         {/* Home */}
+        
         <NavLink
           className="flex sm:gap-2 items-center px-2 py-1 rounded-full transition-all duration-500 ease-out"
           to="/"
         >
-          <span className="font-semibold text-xl sm:text-2xl">
-            <i className="ri-home-5-line"></i>
-          </span>
+          <img
+            src={logo}
+            alt="Logo"
+            className="w-8 h-8 object-cover rounded-full"
+          />
         </NavLink>
 
         {/* Resume */}
@@ -56,10 +60,10 @@ const Navbar = () => {
 
         <span className="text-xl sm:text-2xl text-gray-500">|</span>
         <a
-  href="https://linkedin.com/in/aman-rawat-a146932b1"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="
+          href="https://linkedin.com/in/aman-rawat-a146932b1"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
   group flex items-center rounded-full
   transition-all duration-500 ease-out
   bg-transparent
@@ -67,25 +71,25 @@ const Navbar = () => {
   hover:px-[10px]
   hover:shadow-[0_0_15px_rgba(0,119,181,0.5)]
 "
->
-  <span
-    className="
+        >
+          <span
+            className="
     text-white text-sm font-medium mr-2
     max-w-0 overflow-hidden hidden
     transition-all duration-500 ease-out
     group-hover:max-w-[80px]
     group-hover:block
   "
-  >
-    LinkedIn
-  </span>
+          >
+            LinkedIn
+          </span>
 
-  <span className="font-semibold text-xl sm:text-2xl text-black group-hover:text-white transition-all duration-500 ease-out">
-    <i className="ri-linkedin-box-fill"></i>
-  </span>
-</a>
+          <span className="font-semibold text-xl sm:text-2xl text-black group-hover:text-white transition-all duration-500 ease-out">
+            <i className="ri-linkedin-box-fill"></i>
+          </span>
+        </a>
 
-        
+
 
         {/* GitHub */}
         <a
