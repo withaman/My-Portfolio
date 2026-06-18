@@ -33,7 +33,7 @@ const Contact = () => {
 ${formData.message}
     `;
 
-    const whatsappURL = `https://wa.me/YOUR_NUMBER?text=${encodeURIComponent(
+    const whatsappURL = `https://wa.me/9634847461?text=${encodeURIComponent(
       whatsappMessage
     )}`;
 
@@ -75,7 +75,7 @@ ${formData.message}
     bg-white/5
     border border-white/10
     rounded-2xl
-    px-4 py-3
+    px-3 py-3
     hover:bg-white/10
     transition-all duration-300
   ">
@@ -102,7 +102,7 @@ ${formData.message}
     bg-white/5
     border border-white/10
     rounded-2xl
-    px-4 py-3
+    px-3 py-3
     hover:bg-white/10
     transition-all duration-300
   ">
@@ -129,7 +129,7 @@ ${formData.message}
     bg-white/5
     border border-white/10
     rounded-2xl
-    px-4 py-3
+    px-3 py-3
     hover:bg-white/10
     transition-all duration-300
   ">
@@ -156,7 +156,7 @@ ${formData.message}
     bg-white/5
     border border-white/10
     rounded-2xl
-    px-4 py-3
+    px-3 py-3
     hover:bg-white/10
     transition-all duration-300
   ">
