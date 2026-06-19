@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='flex flex-col gap-6 rounded-3xl mt-10 px-6 py-8 
+    <div className='flex flex-col gap-6 rounded-3xl mt-5 px-6 py-8 
 bg-white/10 backdrop-blur-lg border border-white/20
 shadow-[0_8px_32px_rgba(255,255,255,0.08)]'>
 
@@ -23,7 +23,7 @@ shadow-[0_8px_32px_rgba(255,255,255,0.08)]'>
 
       {/* Skills */}
       <div>
-        <h3 className='text-xl font-semibold text-white mb-4'>
+        <h3 className='text-xl font-semibold text-purple-500 mb-4'>
           Tech Stack
         </h3>
 
@@ -51,7 +51,7 @@ shadow-[0_8px_32px_rgba(255,255,255,0.08)]'>
 
       {/* Hobbies */}
       <div>
-        <h3 className='text-xl font-semibold text-white mb-4'>
+        <h3 className='text-xl font-semibold text-purple-500 mb-4'>
           Beyond Coding
         </h3>
 

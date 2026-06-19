@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import bgImage from "./assets/bgImage.jpg";
-
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -49,6 +49,7 @@ function App() {
           <Route path="/" element={<Home />} />
         </Routes>
       </div>
+      <ScrollToTop />
 
     </div>
   );
